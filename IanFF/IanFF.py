@@ -20,7 +20,7 @@ class IanFF:
 		"""This Does Things!"""
 		self.target = var1
 		#BotTalking
-		await self.bot.say("Target has been sent to "  +  self.target)
+		await self.bot.say("Target has been sent to "  +  self.target.mention)
 
 def setup(bot):
 	bot.add_cog(IanFF(bot))
