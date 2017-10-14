@@ -12,7 +12,7 @@ class Girlsrgross:
         """This does stuff!"""
 
         #Your code will go here
-        await self.bot.say("MY FINAL FORM IS UNLEASHING")
+        await self.bot.say("MY FINAL FORM IS UNLEASHING @ian#9201")
 
 def setup(bot):
     bot.add_cog(Girlsrgross(bot))
