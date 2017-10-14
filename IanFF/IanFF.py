@@ -17,10 +17,10 @@ class IanFF:
 	
 	@commands.command()	
 	async def SetTarget(self, var1):
-			"""This Does Things!"""
+		"""This Does Things!"""
 		self.target = var1
-			#BotTalking
-			await self.bot.say("Target has been send" + self.target)
+		#BotTalking
+		await self.bot.say("Target has been send" + self.target)
 
 def setup(bot):
 	bot.add_cog(IanFF(bot))
