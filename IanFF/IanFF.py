@@ -9,18 +9,18 @@ class IanFF:
 		self.target = None
 
 	@commands.command()
-	async def IanFF(self):
+	async def ianff(self):
 		"""This does stuff!"""
 
 		#Your code will go here
-		await self.bot.say("MY FINAL FORM IS UNLEASHING @ian#9201")
+		await self.bot.say("MY FINAL FORM IS UNLEASHING")
 	
 	@commands.command()	
-	async def SetTarget(self, var1):
+	async def settarget(self, var1):
 		"""This Does Things!"""
 		self.target = var1
 		#BotTalking
-		await self.bot.say("Target has been send" + self.target)
+		await self.bot.say("Target has been send"  +  self.target)
 
 def setup(bot):
 	bot.add_cog(IanFF(bot))
