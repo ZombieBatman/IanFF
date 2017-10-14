@@ -13,13 +13,14 @@ class IanFF:
 		"""This does stuff!"""
 
 		#Your code will go here
-	await self.bot.say("MY FINAL FORM IS UNLEASHING @ian#9201")
+		await self.bot.say("MY FINAL FORM IS UNLEASHING @ian#9201")
+	
 	@commands.command()	
 	async def SetTarget(self, var1):
-	"""This Does Things!"""
-	self.target = var1
-	#BotTalking
-	await. self.bot.say("Target has been send" + self.target)
+			"""This Does Things!"""
+		self.target = var1
+			#BotTalking
+			await self.bot.say("Target has been send" + self.target)
 
 def setup(bot):
 	bot.add_cog(IanFF(bot))
