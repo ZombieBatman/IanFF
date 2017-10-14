@@ -13,7 +13,7 @@ class IanFF:
 		"""This does stuff!"""
 
 		#Your code will go here
-		await self.bot.say("MY FINAL FORM IS UNLEASHING")
+		await self.bot.say("MY FINAL FORM IS UNLEASHING" +  self.target.mention)
 	
 	@commands.command()	
 	async def settarget(self, var1: discord.Member = None):
