@@ -6,7 +6,7 @@ class IanFF:
 
 	def __init__(self, bot):
 		self.bot = bot
-		self.target = Nun
+		self.target = None
 
 	@commands.command()
 	async def IanFF(self):
