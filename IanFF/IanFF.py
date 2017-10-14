@@ -16,7 +16,7 @@ class IanFF:
 		await self.bot.say("MY FINAL FORM IS UNLEASHING")
 	
 	@commands.command()	
-	async def settarget(self, var1 = None):
+	async def settarget(self, var1: discord.Member = None):
 		"""This Does Things!"""
 		self.target = var1
 		#BotTalking
